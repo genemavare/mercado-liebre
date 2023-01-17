@@ -1,0 +1,174 @@
+/* Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a; */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #eac926;
+  width: 100%;
+  
+}
+
+img {
+  width: 20%;
+}
+
+.header-logo {
+  padding-top: 15px;
+  width: 40%;
+  margin-right: 80px;
+  margin-left: 15px;
+}
+
+.header-title {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+li a {
+  color: black;
+  font-size: 11px;
+}
+
+.burger-menu {
+  width: 40px;
+  height: 40px;
+  margin: 10px auto;
+  background-color: #1259c3;
+  border-radius: 8px;
+}
+
+.fa-bars {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 9px;
+}
+
+main {
+  width: 90vw;
+  text-align: center;
+  margin: auto;
+}
+
+article {
+  margin-bottom: 10px;
+}
+
+.box {
+  border: solid 1px #ebebeb;
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+p {
+  text-align: left;
+}
+.description {
+  border-top: solid 1px #ebebeb;
+  padding: 15px;
+}
+
+.fa-truck {
+  color: #39b54a;
+  font-size: 12px;
+  margin-right: 270px;
+  display: flex; 
+}
+.changeco {
+  color: #39b54a;
+  font-size: 12px;
+ 
+}
+
+h4 {
+  font-weight: lighter;
+}
+
+.main-section-title {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 361px) {
+  h4 {
+    display: none;
+  }
+  li a {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  h4 {
+    display: contents;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+  li a {
+    display: contents;
+  }
+  header {
+    margin-bottom: 10px;
+    
+  }
+}
+
+
+section.banner img{
+    width: 100%;
+    margin-top: -10px;
+    
+    
+}
+
+
+.card {
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #1259c3;
+}
+
+.gift {
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #1259c3;
+}
+
+.security {
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #1259c3;
+}
+.center {
+  text-align: center;
+  font-size: 16px;
+}
+
+.center-p {
+  text-align: center;
+  font-size: 12px;
+}
+
+.copy {
+  font-size: 12px;
+  font-weight: lighter;
+}
