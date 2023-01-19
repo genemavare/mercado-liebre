@@ -12,3 +12,11 @@ app.get("/",(req,res)=> {
 app.listen(PORT,()=> {
     console.log(`server listening on ${PORT}`)
 })
+
+app.get('/login', (req,res)=>{
+    res.sendFile(__dirname + '/views/login.html');
+});
+
+app.get('/register', (req,res)=>{
+    res.sendFile(__dirname + '/views/register.html');
+});

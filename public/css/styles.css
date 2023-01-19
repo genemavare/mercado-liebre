@@ -9,6 +9,7 @@ Verde: #39b54a; */
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 
 a {
@@ -64,16 +65,35 @@ main {
   width: 90vw;
   text-align: center;
   margin: auto;
+  
 }
 
 article {
   margin-bottom: 10px;
+
 }
 
 .box {
   border: solid 1px #ebebeb;
   box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  width: 100%;
+  /*height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+
+  /*width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+
+  position: relative;
+  padding: 15px;*/
 }
+
+/*.box:hover{
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}*/
 
 p {
   text-align: left;
@@ -84,6 +104,33 @@ p {
   position: relative;
 }
 
+.div-p{
+  display: flex;
+}
+
+.fa-truck:hover{
+  transition: 1000ms;
+  transform: rotate(-90deg);
+}
+
+main section article:hover .description {
+  display: block;
+}
+
+main section article i {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+  color: #39b54a;
+}
 .fa-truck {
   /*color: #39b54a;
   font-size: 12px;
@@ -104,10 +151,11 @@ p {
   
 } 
 
-}
+
 .changeco {
   color: #39b54a;
   font-size: 12px;
+  margin-left: 60px;
  
 }
 
@@ -126,6 +174,11 @@ h4 {
   li a {
     display: none;
   }
+  header {
+    margin-bottom:0;
+    
+  }
+  
 }
 
 @media (min-width: 769px) {
@@ -187,4 +240,8 @@ section.banner img{
 .copy {
   font-size: 12px;
   font-weight: lighter;
+}
+
+.login-btn:hover{
+  background-color: #3498db;
 }
